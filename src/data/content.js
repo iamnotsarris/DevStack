@@ -6,6 +6,9 @@ import James from "../assets/team/James.jpg";
 export const whatsappLink =
   "https://wa.me/558994072096?text=Olá!%20Vim%20pelo%20site%20da%20DevStack%20e%20gostaria%20de%20falar%20com%20um%20especialista.";
 
+export const whatsappLinkModel =
+  "https://wa.me/558994072096?text=Olá!%20Vim%20pelo%20site%20da%20DevStack%20e%20gostaria%20de%20pedir%20uma%20impressão%203D.";
+
 export const navLinks = [
   { id: "sobre", label: "Sobre" },
   { id: "servicos", label: "Serviços" },
@@ -132,7 +135,7 @@ export const services = [
     title: "Sistemas de Gestão Sob Medida",
     description:
       "Plataformas de gestão, agendamento e controle construídas para a realidade específica do seu negócio.",
-    link: "/",
+    link: "/sistemas-gestao",
   },
 ];
 

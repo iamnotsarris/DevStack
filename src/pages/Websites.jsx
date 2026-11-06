@@ -6,27 +6,27 @@ import {
   Code2,
   MonitorSmartphone,
 } from "lucide-react";
+import SIGEP from "../assets/Websites/sigep.png";
+import RESOURCEFLOW from "../assets/Websites/resourceflow.png";
 
 const projects = [
   {
     id: 1,
-    title: "E-commerce de Moda",
+    title: "SIGEP",
     description:
-      "Loja virtual completa com integração de pagamento e painel administrativo.",
-    techs: ["React", "Node.js", "Tailwind"],
-    image:
-      "https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=800&q=80",
-    url: "https://exemplo.com",
+      "Sistema Inteligente · Georreferencial Epidemiológico. Acompanhe a evolução de casos, dados gerais e as zonas de abrangência das UBSs em tempo real para tomada rápida de decisões.",
+    techs: ["React + Vite", "Django", "PGAdmin", "Desenvolvimento de Software"],
+    image: SIGEP,
+    url: "https://sigepflo.vercel.app/",
   },
   {
     id: 2,
-    title: "Dashboard Financeiro",
+    title: "Resource Flow",
     description:
-      "Painel de controle para gestão de finanças pessoais com gráficos interativos.",
-    techs: ["Next.js", "TypeScript", "PostgreSQL"],
-    image:
-      "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=800&q=80",
-    url: "https://exemplo.com",
+      "Plataforma completa para agendamento e gestão de recursos. O sistema facilita a organização de horários e a alocação de ativos através de uma interface web intuitiva.",
+    techs: ["React", "Node.js", "TypeScript", "PostgreSQL"],
+    image: RESOURCEFLOW,
+    url: "https://resource-flow-scholar.vercel.app/",
   },
   {
     id: 3,

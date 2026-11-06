@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { MessageCircle } from "lucide-react";
-import { whatsappLink } from "../../data/content";
+import { whatsappLinkModel } from "../../data/content";
 import { fadeUpVariant, viewportOnce } from "../../lib/animations";
 
 function CTA() {
@@ -26,7 +26,7 @@ function CTA() {
           Fale agora com a nossa equipe e descubra como transformar processos
           manuais em sistemas inteligentes.
         </p>
-        <a href={whatsappLink} target="_blank" rel="noreferrer external">
+        <a href={whatsappLinkModel} target="_blank" rel="noreferrer external">
           <motion.button
             whileHover={{
               scale: 1.05,
